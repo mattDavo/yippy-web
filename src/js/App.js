@@ -52,7 +52,7 @@ class App extends Component {
               />
             </div>
           </div>
-          <div ref="tabs" className="Tabs">
+          <div ref="tabs">
             <AboutTab isEnabled={this.state.tabSelected === "about"}></AboutTab>
             <BlogTab isEnabled={this.state.tabSelected === "blog"}></BlogTab>
             <ReleasesTab isEnabled={this.state.tabSelected === "releases"}></ReleasesTab>

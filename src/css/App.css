@@ -6,7 +6,6 @@ body {
   text-align: center;
   background-color: lightgray;
   min-height: 100vh;
-  /* width: 100%; */
   position: relative;
 }
 
@@ -15,7 +14,6 @@ body {
 }
 
 .App-logo {
-  /* animation: App-logo-spin infinite 20s linear; */
   height: 70px;
 }
 
@@ -75,15 +73,6 @@ body {
   text-decoration: unset;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-.Tabs {
-  
-}
-
 .Tab {
   margin: 0px;
 }
@@ -109,12 +98,6 @@ body {
   width: 700px;
   max-width: calc(100vw - 80px);
 }
-
-/* @media only screen and (max-width: 780px) {
-    .Rounded-box {
-        width: 
-    }
-} */
 
 .Rounded-box-title {
   margin: 0px;

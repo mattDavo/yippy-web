@@ -1,6 +1,6 @@
 import React from 'react';
 import Tab from './Tab';
-import screenshot from '../images/screenshot.png';
+import screenshot from '../images/screenshot.jpg';
 
 class AboutTab extends Tab {
     renderTab() {
