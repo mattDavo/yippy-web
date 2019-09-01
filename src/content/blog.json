@@ -1,0 +1,16 @@
+[
+    {
+        "id": 0,
+        "title": "First Post!",
+        "content": "Goals for working on Yippy:\n- Learn and use reactive programming\n- Use test driven development\n- Learn macOS development\n- Put out releases and act based on feedback\n- Build a great tool/app!\n- Learn the use of functional programming in a Swift + macOS environment",
+        "date": 1565097487,
+        "author": "Matt Davidson"
+    },
+    {
+        "id": 1,
+        "title": "Challenges with RxSwift",
+        "content": "As a part of my learning experience in developing Yippy I have decided to learn reactive programming. As Yippy is being developed in Swift, I have chosen to use RxSwift. So I have started trying to implement the reactive programming patterns to Yippy. So far I have found it to be more difficult than I anticipated but I can tell that it is starting to make sense, and how I'm supposed to use and implement. I think it will continue to be a large learning curve but worthwhile.",
+        "date": 1566882327,
+        "author": "Matt Davidson"
+    }
+]
