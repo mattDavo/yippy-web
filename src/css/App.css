@@ -153,6 +153,11 @@ body {
   margin: 0px;
 }
 
+.About-download {
+  color: whitesmoke;
+  margin: 0px;
+}
+
 .About-info-box {
   margin: 10px;
   flex-grow: 1;
