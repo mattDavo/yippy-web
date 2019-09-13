@@ -12,5 +12,12 @@
         "content": "As a part of my learning experience in developing Yippy I have decided to learn reactive programming. As Yippy is being developed in Swift, I have chosen to use RxSwift. So I have started trying to implement the reactive programming patterns to Yippy. So far I have found it to be more difficult than I anticipated but I can tell that it is starting to make sense, and how I'm supposed to use and implement. I think it will continue to be a large learning curve but worthwhile.",
         "date": 1566882327,
         "author": "Matt Davidson"
+    },
+    {
+        "id": 2,
+        "title": "Improving the User Experience",
+        "content": "To get users to test and receive helpful feedback I decided that I needed to improve the installation experience, as it wasn't clear why or how the user should provide full control to Yippy. Unfortunately due to macOSX this clunky step is necessary, so I need to try and make it as seemless for the user as possible. So I have added a step to prompt the user into providing the full control. Additionally I have added a help window that provides instructions on how to use Yippy once full control is given, until then the user is prompted to provide full access. Hopefully these steps will be enough in the short term to make the installation process simple.\n\nNow that I have added a fair amount of code complexity to the app, I have to dedicate some time to cleaning up the app. This will involve removing all warnings, making the code more readable, converting more code to use RxSwift and importantly write tests! I haven't done much testing, UI or otherwise in Swift so this will be a good opportunity to learn how the Xcode testing framework works. I think this is an important next step, so as I add more features to Yippy I can be sure that the original and future features work as expected.",
+        "date": 1568347088,
+        "author": "Matt Davidson"
     }
 ]

@@ -23,7 +23,7 @@ class AboutTab extends Tab {
                     <br />
                     <h1 className="About-download">
                         <a className="About-download" href={release.path} download="Yippy">
-                            <u>Download Yippy {release.release} now</u>
+                            <u>Download Yippy {release.release} Now!</u>
                         <br />
                         <br />
                         <i className="fas fa-download fa-4x"></i>
@@ -51,6 +51,8 @@ class AboutTab extends Tab {
                             <li>Customisable keyboard shortcuts</li>
                             <li>Formatted pasting e.g. styling, images, files, etc.</li>
                             <li>Hotkeys for fast pasting of older clipboard items.</li>
+                            <li>Delete items from clipboard history.</li>
+                            <li>Automatic updates.</li>
                         </ul>
                     </div>
                     <div className="Rounded-box About-info-box">
