@@ -13,7 +13,7 @@ class BlogTab extends Tab {
             <div key={data.id} className="Rounded-box">
                 <h3 className="Rounded-box-title">{data.title}</h3>
                 <h6 className="Rounded-box-subtitle">{data.author} on {dateStr}</h6>
-                <p className="Rounded-box-content">{data.content}</p>
+                <p className="Rounded-box-content" dangerouslySetInnerHTML={{ __html: data.content }}/>
             </div>
         );
     }

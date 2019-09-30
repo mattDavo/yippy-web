@@ -124,7 +124,7 @@ body {
   letter-spacing: -0.004em;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.3;
+  line-height: 1.5;
   font-size: 18px;
   margin-bottom: 0px;
 }
@@ -185,6 +185,41 @@ body {
 .Releases-icon-button {
   color: inherit;
   text-decoration: none;
+}
+
+.Code-block {
+  background-color: rgb(44, 44, 44);
+  color: white;
+  font-family: monospace;
+  border-radius: 10px;
+  padding: 5px;
+  white-space: pre-wrap;
+}
+
+.Code-call {
+  color: white;
+}
+
+.Code-keyword {
+  color: rgb(96, 124, 248);
+}
+
+.Code-string {
+  color: rgb(199, 34, 67)
+}
+
+.Code-type {
+  color: rgb(123, 189, 243);
+}
+
+.Code-comment {
+  color: rgb(96, 197, 82);
+}
+
+code {
+  background-color: lightgray;
+  padding: 2px;
+  border-radius: 5px;
 }
 
 p > a {
