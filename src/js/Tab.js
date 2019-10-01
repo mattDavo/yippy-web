@@ -11,11 +11,12 @@ class Tab extends Component {
     }
 
     render() {
-        return (
-            <div className={'Tab ' + (this.props.isEnabled ? 'Tab-enabled' : 'Tab-not-enabled')}>
-                {this.renderTab()}
-            </div>
-        );
+        // return (
+        //     <div className={'Tab ' + (this.props.isEnabled ? 'Tab-enabled' : 'Tab-not-enabled')}>
+        //         {this.renderTab()}
+        //     </div>
+        // );
+        return this.renderTab();
     }
 }
 

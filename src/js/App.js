@@ -1,69 +1,46 @@
 import React, { Component } from 'react';
-import TabOption from './TabOption';
 import AboutTab from './AboutTab';
 import BlogTab from './BlogTab';
 import ReleasesTab from './ReleasesTab';
+import Tabs from './Tabs'
 import '../css/App.css';
 import '../fontawesome/css/all.min.css';
 import yippyIcon from '../images/yippyIcon.svg';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from 'react-router-dom';
+import NotFoundComponent from './NotFoundComponent';
 
 class App extends Component {
   
-  constructor(props) {
-    super(props);
-    this.state = {
-      tabSelected: 'about'
-    };
-    
-    this.handleTabClicked = this.handleTabClicked.bind(this)
-  }
-  
-  handleTabClicked(tab) {
-    this.setState({ ...this.state, tabSelected: tab });
-  }
-  
   render() {
     return (
+      <Router>
       <div className="App" ref="app">
         <div className="App-content">
           <div className="App-header" ref="header">
             <img src={yippyIcon} className="App-logo" alt="logo" />
             <h1 className="App-header-title">Yippy</h1>
-            <div ref="tabBar">
-              <TabOption
-                tab="about"
-                isSelected={this.state.tabSelected === "about"}
-                handleTabClicked={this.handleTabClicked}
-                title="About"
-              />
-              |
-            <TabOption
-                tab="blog"
-                isSelected={this.state.tabSelected === "blog"}
-                handleTabClicked={this.handleTabClicked}
-                title="Blog"
-              />
-              |
-            <TabOption
-                tab="releases"
-                isSelected={this.state.tabSelected === "releases"}
-                handleTabClicked={this.handleTabClicked}
-                title="Releases"
-              />
-            </div>
+            <Tabs/>
           </div>
-          <div ref="tabs">
-            <AboutTab isEnabled={this.state.tabSelected === "about"}></AboutTab>
-            <BlogTab isEnabled={this.state.tabSelected === "blog"}></BlogTab>
-            <ReleasesTab isEnabled={this.state.tabSelected === "releases"}></ReleasesTab>
-          </div>
+          <Switch>
+              <Route exact path='/' component={AboutTab}></Route>
+              <Route exact path='/blog' component={BlogTab}></Route>
+              <Route exact path='/releases' component={ReleasesTab}></Route>
+              <Route component={NotFoundComponent}></Route>
+          </Switch>
         </div>
         <div className="App-footer">
           <span>Site made with <a href="https://reactjs.org/" target="_blank">ReactJS</a> by <a href="https://mattdavo.com" target="_blank">Matt Davidson.</a></span>
         </div>
       </div>
+      </Router>
     );
   }
 }
+
+
 
 export default App;

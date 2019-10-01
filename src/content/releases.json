@@ -3,7 +3,7 @@
         "id": 0,
         "release": "1.0.0",
         "notes": "First release! Use command + shift + v to toggle the window. Use up and down arrows to change selection. Use enter to paste the text where the cursor is.",
-        "path": "./releases/Yippy-1.0.0.zip",
+        "path": "./yippy-releases/Yippy-1.0.0.zip",
         "link": "https://github.com/mattDavo/Yippy/releases/tag/1.0.0",
         "date": 1564997195
     },
@@ -11,7 +11,7 @@
         "id": 1,
         "release": "1.0.1",
         "notes": "Pretty icons! Now the status bar icon menu has some more features. The location of the Yippy window can be customized to left, right, top and bottom.",
-        "path": "./releases/Yippy-1.0.1.zip",
+        "path": "./yippy-releases/Yippy-1.0.1.zip",
         "link": "https://github.com/mattDavo/Yippy/releases/tag/1.0.1",
         "date": 1567917602
     },
@@ -19,7 +19,7 @@
         "id": 2,
         "release": "1.0.2",
         "notes": "Improved the user's experience by making it easier to install Yippy and get it up and running. This is done through guiding the user through providing Yippy full control and explaining why it is necessary. Then instructions for how to use Yippy are provided once the user has provided Yippy full control.",
-        "path": "./releases/Yippy-1.0.2.zip",
+        "path": "./yippy-releases/Yippy-1.0.2.zip",
         "link": "https://github.com/mattDavo/Yippy/releases/tag/1.0.2",
         "date": 1568347088
     }
