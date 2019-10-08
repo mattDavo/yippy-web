@@ -38,7 +38,7 @@ class AboutTab extends Tab {
                             Select the text you would like to paste by clicking or using the up and down arrows.
                             Then press enter to paste the selected text into the current cursor location.
                             <br /><br />
-                            The Yippy window can be customised to float on the left, right, top or bottom portion of the screen.
+                            The Yippy window can be customised to float on the left, right, top or bottom portion of the screen. There are also hotkeys for the 10 most recent copied items and items can be deleted from the history.
                         </p>
                     </div>
                     <div className="Rounded-box About-info-box">
@@ -50,8 +50,6 @@ class AboutTab extends Tab {
                             <li>Customisable window size</li>
                             <li>Customisable keyboard shortcuts</li>
                             <li>Formatted pasting e.g. styling, images, files, etc.</li>
-                            <li>Hotkeys for fast pasting of older clipboard items.</li>
-                            <li>Delete items from clipboard history.</li>
                             <li>Automatic updates.</li>
                         </ul>
                     </div>

@@ -22,5 +22,13 @@
         "path": "./yippy-releases/Yippy-1.0.2.zip",
         "link": "https://github.com/mattDavo/Yippy/releases/tag/1.0.2",
         "date": 1568347088
+    },
+    {
+        "id": 3,
+        "release": "1.0.3",
+        "notes": "Improved Yippy window framing for all combinations and changing of the menu bar and dock visibility. Added hotkeys to move the Yippy window. Added hotkeys to paste recent items in history. Added option to delete items from history. Added option to clear all history. Fixed bug of item cell height when new items are copied. Fixed other minor bugs.",
+        "path": "./yippy-releases/Yippy-1.0.3.zip",
+        "link": "https://github.com/mattDavo/Yippy/releases/tag/1.0.3",
+        "date": 1570407178
     }
 ]
