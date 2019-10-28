@@ -22,7 +22,7 @@ class AboutTab extends Tab {
                     <br />
                     <br />
                     <h1 className="About-download">
-                        <a className="About-download" href={release.path} download="Yippy">
+                        <a className="About-download" href={release.path} download="Yippy.dmg">
                             <u>Download Yippy {release.release} Now!</u>
                         <br />
                         <br />

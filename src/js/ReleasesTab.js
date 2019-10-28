@@ -11,7 +11,7 @@ class ReleasesTab extends Tab {
 
         return (
             <div key={data.id} className="Rounded-box">
-                <h3 className="Rounded-box-title">Release {data.release} - <a href={data.path} download="Yippy" className="Releases-icon-button far fa-file-archive" /> - <a href={data.link} target="_blank" className="Releases-icon-button fas fa-code" />
+                <h3 className="Rounded-box-title">Release {data.release} - <a href={data.path} className="Releases-icon-button far fa-file-archive" /> - <a href={data.link} target="_blank" className="Releases-icon-button fas fa-code" />
                 </h3>
                 <h6 className="Rounded-box-subtitle">{dateStr}</h6>
                 <p className="Rounded-box-content">{data.notes}</p>
