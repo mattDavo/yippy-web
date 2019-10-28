@@ -233,3 +233,9 @@ p > a {
   margin: 10px;
   font-weight: 600;
 }
+
+.Installation-tab {
+  background-color: lightgray;
+  padding: 20px;
+  align-content: center;
+}

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import AboutTab from './AboutTab';
 import BlogTab from './BlogTab';
 import ReleasesTab from './ReleasesTab';
+import InstallationTab from './InstallationTab';
 import Tabs from './Tabs'
 import '../css/App.css';
 import '../fontawesome/css/all.min.css';
@@ -29,6 +30,7 @@ class App extends Component {
               <Route exact path='/' component={AboutTab}></Route>
               <Route exact path='/blog' component={BlogTab}></Route>
               <Route exact path='/releases' component={ReleasesTab}></Route>
+              <Route exact path='/installation' component={InstallationTab}></Route>
               <Route component={NotFoundComponent}></Route>
           </Switch>
         </div>

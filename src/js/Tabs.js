@@ -15,16 +15,22 @@ class Tabs extends Component {
                     route="/"
                 />
                 |
-            <TabOption
-                    isSelected={tabSelected === "/blog"}
-                    title="Blog"
-                    route="/blog"
-                />
-                |
-            <TabOption
-                    isSelected={tabSelected === "/releases"}
-                    title="Releases"
-                    route="/releases"
+                <TabOption
+                        isSelected={tabSelected === "/blog"}
+                        title="Blog"
+                        route="/blog"
+                    />
+                    |
+                <TabOption
+                        isSelected={tabSelected === "/releases"}
+                        title="Releases"
+                        route="/releases"
+                    />
+                    |
+                <TabOption
+                    isSelected={tabSelected === "/installation"}
+                    title="Installation"
+                    route="/installation"
                 />
             </div>
         );
