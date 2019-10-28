@@ -42,7 +42,7 @@
     {
         "id": 5,
         "release": "2.0.0",
-        "notes": "Major release! Breaking change to improve performance and add new features. New features:\n - Large floating preview to see each item in its entirety.\n - Supporting new types of copies, such as images, files and formatted text.\n - Dark mode support.",
+        "notes": "Major release! Breaking change to improve performance and add new features. New features:\n - Large floating preview to see each item in its entirety.\n - Supporting new types of copies, such as images, files and formatted text.\n - Dark mode support.\n - OSX 10.13.x support.",
         "path": "./yippy-releases/Yippy-2.0.0.dmg",
         "link": "https://github.com/mattDavo/Yippy/releases/tag/2.0.0",
         "date": 1572228302
