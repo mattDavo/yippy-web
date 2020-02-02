@@ -3,6 +3,10 @@ import Tab from './Tab';
 import screenshot from '../images/screenshot.jpg';
 import releasesData from '../content/releases.json';
 
+import screenshot1 from '../images/screenshot1.png';
+import yippyDrag from '../images/yippy-drag.gif';
+import yippyPreviewWindow from '../images/yippy-preview-window.gif';
+
 class AboutTab extends Tab {
     getLatestRelease() {
         return releasesData.sort((x, y) => {
@@ -30,17 +34,38 @@ class AboutTab extends Tab {
                     </a>
                     </h1>
                 </div>
-                <div className="About-info">
-                    <div className="Rounded-box About-info-box">
-                        <h3 className="Rounded-box-title">Features</h3>
-                        <p className="Rounded-box-content">
-                            Yippy can be toggled open and closed by using the hotkey Command (⌘) + Shift + v.
-                            Select the text you would like to paste by clicking or using the up and down arrows.
-                            Then press enter to paste the selected text into the current cursor location.
-                            <br /><br />
-                            The Yippy window can be customised to float on the left, right, top or bottom portion of the screen. There are also hotkeys for the 10 most recent copied items and items can be deleted from the history.
+                <div className="About-hero">
+                    <div className="feature-block">
+                        <div className="feature-text">
+                            <ul>
+                                <li>Toggle open using the hotkey: Command (⌘) + Shift + v</li>
+                                <li>Select the item you would like to paste by clicking or using the up and down arrows</li>
+                                <li>Press enter to paste the selected text into the current cursor location.</li>
+                                <li>Float Yippy window on the left, right, top or bottom portion of the screen.</li>
+                                <li>Hotkeys for the 10 most recent copied items</li>
+                                <li>Easily delete any items in the history</li>
+                            </ul>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                        </div>
+                        <img src={screenshot1} alt="Yippy preview window" className="feature-image" />
+                    </div>
+                    <div className="feature-block">
+                        <img src={yippyDrag} alt="Yippy drag paste" className="feature-image" />
+                        <p className="feature-text">
+                            Drag items directly where you would like them.
                         </p>
                     </div>
+                    <div className="feature-block">
+                        <p className="feature-text">
+                            Preview large text, files and images by pressing the spacebar.
+                        </p>
+                        <img src={yippyPreviewWindow} alt="Yippy preview items" className="feature-image" />
+                    </div>
+                </div>
+                <div className="About-info">
                     <div className="Rounded-box About-info-box">
                         <h3 className="Rounded-box-title">What's Next?</h3>
                         <p className="Rounded-box-content">
@@ -60,6 +85,7 @@ class AboutTab extends Tab {
                             a <a href="https://github.com/mattDavo/Yippy/compare" target="_blank">pull request</a>,
                             testing Yippy and providing feedback
                             or <a href="https://github.com/mattDavo/Yippy/issues/new" target="_blank">suggesting new features</a>.
+                            Source code available on <a href="https://github.com/mattDavo/Yippy">Github</a>.
                         </p>
                     </div>
                 </div>

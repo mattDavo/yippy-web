@@ -46,5 +46,13 @@
         "path": "./yippy-releases/Yippy-2.0.0.dmg",
         "link": "https://github.com/mattDavo/Yippy/releases/tag/2.0.0",
         "date": 1572228302
+    },
+    {
+        "id": 5,
+        "release": "2.1.0",
+        "notes": "Added drag paste items and fixed a few bugs.",
+        "path": "./yippy-releases/Yippy-2.1.0.dmg",
+        "link": "https://github.com/mattDavo/Yippy/releases/tag/2.1.0",
+        "date": 1580543107
     }
 ]

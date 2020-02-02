@@ -1,12 +1,17 @@
+:root {
+  --default-font-family: 'Avenir Next', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: var(--default-font-family);
+}
+
 body {
   background-color: #5884ad;
 }
 
 .App {
   text-align: center;
-  background-color: lightgray;
   min-height: 100vh;
   position: relative;
+  font-family: var(--default-font-family);
 }
 
 .App-content {
@@ -43,6 +48,7 @@ body {
 
 .App-header-title {
   margin-top: 10px;
+  letter-spacing: 2px;
 }
 
 .App-intro {
@@ -55,7 +61,7 @@ body {
   border-width: 0px;
   margin-right: 10px;
   margin-left: 10px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: var(--default-font-family);
   display:inline-block;
   font-size: 18pt;
   cursor: pointer;
@@ -94,7 +100,7 @@ body {
 .Rounded-box-title {
   margin: 0px;
   text-align: left;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: var(--default-font-family);
   font-size: 34px;
   font-weight: 600;
   letter-spacing: -0.022em;
@@ -104,7 +110,7 @@ body {
 .Rounded-box-subtitle {
   text-align: left;
   margin: 0px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: var(--default-font-family);
   font-size: 14px;
   color: dimgray;
 }
@@ -112,7 +118,7 @@ body {
 .Rounded-box-content {
   white-space: pre-line;
   text-align: left;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: var(--default-font-family);
   letter-spacing: -0.004em;
   font-style: normal;
   font-weight: 400;
@@ -133,7 +139,7 @@ body {
 }
 
 .About-info {
-  background-color: lightgray;
+  background-color: inherit;
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -154,6 +160,7 @@ body {
   margin: 10px;
   flex-grow: 1;
   width: 200px;
+  min-width: 350px;
 }
 
 .Screenshot-img {
@@ -238,4 +245,35 @@ p > a {
   background-color: lightgray;
   padding: 20px;
   align-content: center;
+}
+
+.feature-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.feature-text {
+  color: white;
+  text-align: left;
+  width: 37%;
+  font-size: 20px;
+  line-height: 1.7em;
+  padding: 10px;
+  max-width: 700px;
+}
+
+.feature-image {
+  width: 57%;
+  max-width: 700px;
+  margin: auto;
+}
+
+@media(max-width: 1000px) {
+  .feature-text, .feature-image {
+    width: 100%;
+    margin: auto;
+  }
 }
