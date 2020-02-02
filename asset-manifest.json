@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.4587482d.css",
-  "main.css.map": "static/css/main.4587482d.css.map",
-  "main.js": "static/js/main.7c302cc7.js",
-  "main.js.map": "static/js/main.7c302cc7.js.map",
+  "main.css": "static/css/main.aab68d2f.css",
+  "main.css.map": "static/css/main.aab68d2f.css.map",
+  "main.js": "static/js/main.e38408b1.js",
+  "main.js.map": "static/js/main.e38408b1.js.map",
   "static/media/fa-brands-400.eot": "static/media/fa-brands-400.14c590d1.eot",
   "static/media/fa-brands-400.svg": "static/media/fa-brands-400.bfa9c38b.svg",
   "static/media/fa-brands-400.ttf": "static/media/fa-brands-400.5e8aa9ea.ttf",
@@ -25,5 +25,8 @@
   "static/media/installation4.png": "static/media/installation4.797c8ccd.png",
   "static/media/installation5.png": "static/media/installation5.01417764.png",
   "static/media/screenshot.jpg": "static/media/screenshot.ba2f7cf4.jpg",
+  "static/media/screenshot1.png": "static/media/screenshot1.63e18b70.png",
+  "static/media/yippy-drag.gif": "static/media/yippy-drag.a2239b6d.gif",
+  "static/media/yippy-preview-window.gif": "static/media/yippy-preview-window.e32ded3b.gif",
   "static/media/yippyIcon.svg": "static/media/yippyIcon.be3b7109.svg"
 }
