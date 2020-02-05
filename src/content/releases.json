@@ -48,11 +48,19 @@
         "date": 1572228302
     },
     {
-        "id": 5,
+        "id": 6,
         "release": "2.1.0",
         "notes": "Added drag paste items and fixed a few bugs.",
         "path": "./yippy-releases/Yippy-2.1.0.dmg",
         "link": "https://github.com/mattDavo/Yippy/releases/tag/2.1.0",
         "date": 1580543107
+    },
+    {
+        "id": 7,
+        "release": "2.1.1",
+        "notes": "Fixed bug: font unavailability causing launch crash.",
+        "path": "./yippy-releases/Yippy-2.1.1.dmg",
+        "link": "https://github.com/mattDavo/Yippy/releases/tag/2.1.1",
+        "date": 1580875933
     }
 ]
