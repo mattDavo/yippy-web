@@ -62,5 +62,13 @@
         "path": "./yippy-releases/Yippy-2.1.1.dmg",
         "link": "https://github.com/mattDavo/Yippy/releases/tag/2.1.1",
         "date": 1580875933
+    },
+    {
+        "id": 8,
+        "release": "2.1.2",
+        "notes": "Fixed bug: incorrect Yippy window position when dock permanently shown.",
+        "path": "./yippy-releases/Yippy-2.1.2.dmg",
+        "link": "https://github.com/mattDavo/Yippy/releases/tag/2.1.2",
+        "date": 1580877105
     }
 ]

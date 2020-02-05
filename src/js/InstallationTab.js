@@ -29,6 +29,7 @@ class InstallationTab extends Tab {
                 <img src={installation3} alt="Installation screenshot 3" className="Screenshot-img" />
                 
                 <h1>5. Then find Yippy in the Privacy tab and make sure it is ticked.</h1>
+                <h3>If it is already ticked, untick it and tick it again.</h3>
                 <img src={installation4} alt="Installation screenshot 4" className="Screenshot-img" />
                 
                 <h1>6. Close System Preferences and you should see this window. Then you are ready to start using Yippy!</h1>
