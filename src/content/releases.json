@@ -70,5 +70,21 @@
         "path": "./yippy-releases/Yippy-2.1.2.dmg",
         "link": "https://github.com/mattDavo/Yippy/releases/tag/2.1.2",
         "date": 1580877105
+    },
+    {
+        "id": 9,
+        "release": "2.1.3",
+        "notes": "Fixed potential caching bug.",
+        "path": "./yippy-releases/Yippy-2.1.3.dmg",
+        "link": "https://github.com/mattDavo/Yippy/releases/tag/2.1.3",
+        "date": 1580977091
+    },
+    {
+        "id": 10,
+        "release": "2.1.4",
+        "notes": "Updated code signing.",
+        "path": "./yippy-releases/Yippy-2.1.4.dmg",
+        "link": "https://github.com/mattDavo/Yippy/releases/tag/2.1.4",
+        "date": 1580977211
     }
 ]
