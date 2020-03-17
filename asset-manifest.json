@@ -1,8 +1,9 @@
 {
-  "main.css": "static/css/main.4e99c60d.css",
-  "main.css.map": "static/css/main.4e99c60d.css.map",
-  "main.js": "static/js/main.c9118f10.js",
-  "main.js.map": "static/js/main.c9118f10.js.map",
+  "main.css": "static/css/main.71336048.css",
+  "main.css.map": "static/css/main.71336048.css.map",
+  "main.js": "static/js/main.b922d2e9.js",
+  "main.js.map": "static/js/main.b922d2e9.js.map",
+  "static/media/YippyIcon.png": "static/media/YippyIcon.d5ced8e4.png",
   "static/media/fa-brands-400.eot": "static/media/fa-brands-400.14c590d1.eot",
   "static/media/fa-brands-400.svg": "static/media/fa-brands-400.bfa9c38b.svg",
   "static/media/fa-brands-400.ttf": "static/media/fa-brands-400.5e8aa9ea.ttf",
@@ -27,6 +28,5 @@
   "static/media/screenshot.jpg": "static/media/screenshot.ba2f7cf4.jpg",
   "static/media/screenshot1.png": "static/media/screenshot1.63e18b70.png",
   "static/media/yippy-drag.gif": "static/media/yippy-drag.a2239b6d.gif",
-  "static/media/yippy-preview-window.gif": "static/media/yippy-preview-window.e32ded3b.gif",
-  "static/media/yippyIcon.svg": "static/media/yippyIcon.be3b7109.svg"
+  "static/media/yippy-preview-window.gif": "static/media/yippy-preview-window.e32ded3b.gif"
 }
