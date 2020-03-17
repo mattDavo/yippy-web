@@ -6,7 +6,7 @@ import InstallationTab from './InstallationTab';
 import Tabs from './Tabs'
 import '../css/App.css';
 import '../fontawesome/css/all.min.css';
-import yippyIcon from '../images/yippyIcon.svg';
+import yippyIcon from '../images/YippyIcon.png';
 import {
   BrowserRouter as Router,
   Route,
