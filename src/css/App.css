@@ -90,7 +90,8 @@ body {
   border-style: solid;
   border-radius: 20px;
   background-color: whitesmoke;
-  display: inline-block;
+  display: block;
+  margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   width: 700px;

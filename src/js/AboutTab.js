@@ -72,10 +72,9 @@ class AboutTab extends Tab {
                             Yippy is still in development and welcoming help. Features coming soon are:
                         </p>
                         <ul className="Rounded-box-content">
-                            <li>Customisable window size</li>
-                            <li>Customisable keyboard shortcuts</li>
-                            <li>Formatted pasting e.g. styling, images, files, etc.</li>
-                            <li>Automatic updates.</li>
+                            <li>Search</li>
+                            <li>Automatic updates</li>
+                            <li>Favourites</li>
                         </ul>
                     </div>
                     <div className="Rounded-box About-info-box">

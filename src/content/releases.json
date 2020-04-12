@@ -94,5 +94,13 @@
         "path": "./yippy-releases/Yippy-2.2.0.dmg",
         "link": "https://github.com/mattDavo/Yippy/releases/tag/2.2.0",
         "date": 1584438318
+    },
+    {
+        "id": 12,
+        "release": "2.3.0",
+        "notes": "🚀 New options for limiting the maximum number of items.\n🚀 Toggle to show text with consistent formatting.\n🚀 Toggle to paste text without its copied formatting.",
+        "path": "./yippy-releases/Yippy-2.3.0.dmg",
+        "link": "https://github.com/mattDavo/Yippy/releases/tag/2.3.0",
+        "date": 1586687955
     }
 ]
