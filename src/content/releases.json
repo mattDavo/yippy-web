@@ -102,5 +102,13 @@
         "path": "./yippy-releases/Yippy-2.3.0.dmg",
         "link": "https://github.com/mattDavo/Yippy/releases/tag/2.3.0",
         "date": 1586687955
+    },
+    {
+        "id": 13,
+        "release": "2.4.0",
+        "notes": "🚀 Yippy window follows your mouse across different displays.\n🚀 Yippy window auto-resizes on connection of new mirrored display.",
+        "path": "./yippy-releases/Yippy-2.4.0.dmg",
+        "link": "https://github.com/mattDavo/Yippy/releases/tag/2.4.0",
+        "date": 1590315695
     }
 ]
