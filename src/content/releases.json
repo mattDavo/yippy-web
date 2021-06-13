@@ -110,5 +110,29 @@
         "path": "./yippy-releases/Yippy-2.4.0.dmg",
         "link": "https://github.com/mattDavo/Yippy/releases/tag/2.4.0",
         "date": 1590315695
+    },
+    {
+        "id": 14,
+        "release": "2.5.0",
+        "notes": "🚀 Improves the functionality of not pasting rich text.",
+        "path": "https://github.com/mattDavo/Yippy/releases/download/2.5.0/Yippy.dmg",
+        "link": "https://github.com/mattDavo/Yippy/releases/tag/2.5.0",
+        "date": 1610933045
+    },
+    {
+        "id": 15,
+        "release": "2.6.0",
+        "notes": "🚀 Silently reports errors when failing to save pasteboard items.\n🚀 Add Center (Extra Small) window size option.\n🚀 Fix window positioning on external screens.",
+        "path": "https://github.com/mattDavo/Yippy/releases/download/2.6.0/Yippy.dmg",
+        "link": "https://github.com/mattDavo/Yippy/releases/tag/2.6.0",
+        "date": 1623561845
+    },
+    {
+        "id": 16,
+        "release": "2.7.0",
+        "notes": "🚀 Prevents the duplication of the last item added to the clipboard for any type of copied.",
+        "path": "https://github.com/mattDavo/Yippy/releases/download/2.7.0/Yippy.dmg",
+        "link": "https://github.com/mattDavo/Yippy/releases/tag/2.7.0",
+        "date": 1623582684
     }
 ]
