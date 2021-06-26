@@ -72,7 +72,6 @@ class AboutTab extends Tab {
                             Yippy is still in development and welcoming help. Features coming soon are:
                         </p>
                         <ul className="Rounded-box-content">
-                            <li>Search</li>
                             <li>Automatic updates</li>
                             <li>Favourites</li>
                         </ul>

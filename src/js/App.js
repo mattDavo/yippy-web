@@ -19,25 +19,25 @@ class App extends Component {
   render() {
     return (
       <Router>
-      <div className="App" ref="app">
-        <div className="App-content">
-          <div className="App-header" ref="header">
-            <img src={yippyIcon} className="App-logo" alt="logo" />
-            <h1 className="App-header-title">Yippy</h1>
-            <Tabs/>
-          </div>
-          <Switch>
+        <div className="App" ref="app">
+          <div className="App-content">
+            <div className="App-header" ref="header">
+              <img src={yippyIcon} className="App-logo" alt="logo" />
+              <h1 className="App-header-title">Yippy</h1>
+              <Tabs/>
+            </div>
+            <Switch>
               <Route exact path='/' component={AboutTab}></Route>
               <Route exact path='/blog' component={BlogTab}></Route>
               <Route exact path='/releases' component={ReleasesTab}></Route>
               <Route exact path='/installation' component={InstallationTab}></Route>
               <Route component={NotFoundComponent}></Route>
-          </Switch>
+            </Switch>
+          </div>
+          <div className="App-footer">
+            <span>Site made with <a href="https://reactjs.org/" target="_blank">ReactJS</a> by <a href="https://mattdavo.com" target="_blank">Matt Davidson.</a></span>
+          </div>
         </div>
-        <div className="App-footer">
-          <span>Site made with <a href="https://reactjs.org/" target="_blank">ReactJS</a> by <a href="https://mattdavo.com" target="_blank">Matt Davidson.</a></span>
-        </div>
-      </div>
       </Router>
     );
   }

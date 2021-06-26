@@ -134,5 +134,13 @@
         "path": "https://github.com/mattDavo/Yippy/releases/download/2.7.0/Yippy.dmg",
         "link": "https://github.com/mattDavo/Yippy/releases/tag/2.7.0",
         "date": 1623582684
+    },
+    {
+        "id": 17,
+        "release": "2.8.0",
+        "notes": "🚀 Adds basic search functionality to the Yippy window.\n🚀 Matches the highlight tint colour to the system default.\n🚀 Fixes paste as plain text for Google Docs.",
+        "path": "https://github.com/mattDavo/Yippy/releases/download/2.8.0/Yippy.dmg",
+        "link": "https://github.com/mattDavo/Yippy/releases/tag/2.8.0",
+        "date": 1624687932
     }
 ]
