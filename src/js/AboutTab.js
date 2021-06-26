@@ -67,6 +67,12 @@ class AboutTab extends Tab {
                 </div>
                 <div className="About-info">
                     <div className="Rounded-box About-info-box">
+                        <h3 className="Rounded-box-title">Support</h3>
+                        <p className="Rounded-box-content">
+                            Support <a href="https://mattdavo.com">me</a> and further development of Yippy by contacting me for freelance work at <a href="mailto:mattdavo15@gmail.com">mattdavo15@gmail.com</a> for any of your software development needs. I work as Frontend Developer at <a href="https://canva.com" target="_blank" rel="noreferrer noopener">Canva</a> and have lots of experience with iOS and macOS development.
+                        </p>
+                    </div>
+                    <div className="Rounded-box About-info-box">
                         <h3 className="Rounded-box-title">What's Next?</h3>
                         <p className="Rounded-box-content">
                             Yippy is still in development and welcoming help. Features coming soon are:
