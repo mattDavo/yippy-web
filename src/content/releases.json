@@ -142,5 +142,13 @@
         "path": "https://github.com/mattDavo/Yippy/releases/download/2.8.0/Yippy.dmg",
         "link": "https://github.com/mattDavo/Yippy/releases/tag/2.8.0",
         "date": 1624687932
+    },
+    {
+        "id": 18,
+        "release": "2.8.1",
+        "notes": "🚀 Fixed minor bugs introduced in 2.8.0.",
+        "path": "https://github.com/mattDavo/Yippy/releases/download/2.8.1/Yippy.dmg",
+        "link": "https://github.com/mattDavo/Yippy/releases/tag/2.8.1",
+        "date": 1624701705
     }
 ]
